@@ -3,8 +3,8 @@ Materiales del módulo 1 de la asignatura Producción de Materiales Digitales de
 # Mi poema
 ## Primera parte
 
-El gigante estaba no podía comprender
-porque no había aprendido a leer
+El gigante no podía comprender
+porque no había aprendido a leer.
 La carta que recibió decía lo siguiente:
 
 *Ik zoek een hoekje heel geheim,
