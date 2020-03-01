@@ -1,6 +1,6 @@
-<center>
-# <span style="color:limegreen">Pensamiento Crítico</span> #
-</center>  
+
+# <center><span style="color:limegreen">Pensamiento Crítico</span></center>
+ 
 
 ----
 
