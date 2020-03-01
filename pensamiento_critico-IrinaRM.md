@@ -1,8 +1,6 @@
-<center>
 # <span style="color:purple">El pensamiento crítico de los estudiantes</span>
-</center>
 
-<center>![pensamiento crítico](https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://elcisne.org/wp-content/uploads/2019/04/Pensamientos.jpg)</center>
+![pensamiento crítico](https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://elcisne.org/wp-content/uploads/2019/04/Pensamientos.jpg)
 
 > "Cuando como lectores nos enfrentamos a un texto podemos tomar distintas posiciones, pero sin duda la más difícil es la posición crítica, en la que el lector ha de llevar a cabo un proceso de negociación entre el texto y sus conocimientos para poder construir su propia interpretación". — Oliveras y Sanmartí
 
