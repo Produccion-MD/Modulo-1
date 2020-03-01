@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SemanaCiencia_JuliaRecursivos</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="semana-de-la-ciencia-2018.-ficha-2.-algoritmos-recursivos">SEMANA DE LA CIENCIA 2018. Ficha 2. Algoritmos Recursivos</h1>
+<h2 id="el-objetivo-de-esta-ficha-es-mostrar-la-programación-de-algoritmos-recursivos.">El objetivo de esta ficha es mostrar la programación de <strong>algoritmos recursivos</strong>.</h2>
+<p>Una de las funciones recursivas más famosas es factorial:</p>
+<figure>
+<img src="https://raw.githubusercontent.com/JuliaLleo/Mis-Letras-Digitales/JuliaLleo-ImagenesRecursivos/form1.JPG" title="Formula 1" alt="Imágen de la primera función" /><figcaption>Imágen de la primera función</figcaption>
+</figure>
+<p>Factorial es útil en la composición de permutaciones, por ejemplo. El cálculo es sencillo y su veremos que el código en un lenguaje de programación es casi cortar y pegar la fórmula matemática.<br />
+Otra función recursiva un poquito más difícil es la que hemos mostrado en la presentación. La sucesión de Fibonacci:</p>
+<figure>
+<img src="https://raw.githubusercontent.com/JuliaLleo/Mis-Letras-Digitales/JuliaLleo-ImagenesRecursivos/form2.JPG" title="Formula 2" alt="Imágen de la ecuación original" /><figcaption>Imágen de la ecuación original</figcaption>
+</figure>
+<figure>
+<img src="https://raw.githubusercontent.com/JuliaLleo/Mis-Letras-Digitales/JuliaLleo-ImagenesRecursivos/Fibonacci.jpg" title="Fibonacci" alt="Imágen de Fibonacci" /><figcaption>Imágen de Fibonacci</figcaption>
+</figure>
+<p>Sucesión de Fibonacci: <strong>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …</strong></p>
+<p>Una primera implementación puede ser precisamente la fórmula matemática con recursión doble, pero veremos que es muy poco eficiente, pues ni siguiera un buen ordenador será capaz de calcular el Fibonacci de 50, por ejemplo.<br />
+Con ayuda de las matemáticas y de la imaginación vamos a implementar otra solución que calcula cualquier Fibonacci en tiempo record, lo que llamamos ‘tiempo real’.</p>
+<figure>
+<img src="https://raw.githubusercontent.com/JuliaLleo/Mis-Letras-Digitales/JuliaLleo-ImagenesRecursivos/form3.JPG" title="Ecuacion generalizada" alt="Imágen de la ecuación generalizada" /><figcaption>Imágen de la ecuación generalizada</figcaption>
+</figure>
+<p>Para calcular números de Fibonacci con esta función hacemos: <em>fib_final(n, 0,1)</em></p>
+<figure>
+<img src="https://raw.githubusercontent.com/JuliaLleo/Mis-Letras-Digitales/JuliaLleo-ImagenesRecursivos/Fibonacci2.jpg" alt="Imágen de las complejidades típicas de un algoritmo" /><figcaption>Imágen de las complejidades típicas de un algoritmo</figcaption>
+</figure>
+<p>En la práctica implementaremos varios algoritmos con diferentes complejidades como se marca en esta gráfica.<br />
+<span style="color:red"> Rojo </span>: El tiempo de ejecución es tan alto que no podríamos vivir para conocer el resultado.</p>
+<p><span style="color:blue"> Azul </span>: El tiempo de ejecución es proporcional al número que actúa como input.</p>
+<p><span style="color:green"> Verde </span>:El tiempo de ejecución será el logaritmo del número actúa como input.</p>
+</body>
+</html>
